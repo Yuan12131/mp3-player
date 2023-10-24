@@ -15,7 +15,11 @@
                 <div class="slide3"></div>
             </div>
 
-            <audio id="musicPlayer" controls style="display: none"></audio>
+            <audio id="musicPlayer" controls style="display: none">
+              <source id="songOne" src="/songOne.mp3">
+              <source id="songTwo" src="/songTwo.mp3">
+              <source id="songThree" src="/songThree.mp3">
+            </audio>
 
             <div>
                 <div class="play"></div>
@@ -37,9 +41,9 @@
 
         // 음악 파일 목록 (같은 디렉토리에 있는 mp3 파일 사용)
         const songs = [
-            "../song1.mp3",
-            "../song2.mp3",
-            "../song3.mp3",
+            "../songOne.mp3",
+            "../songTwo.mp3",
+            "../songThree.mp3",
         ];
 
         // 초기 슬라이드 및 음악 설정
@@ -49,6 +53,7 @@
         playButton.addEventListener("click", function () {
             if (!isPlaying) {
                 musicPlayer.src = songs[currentSlideIndex];
+                console.log("Requested URL: " + musicPlayer.src);
                 musicPlayer.play();
             } else {
                 musicPlayer.pause();
