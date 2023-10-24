@@ -53,7 +53,6 @@
         playButton.addEventListener("click", function () {
             if (!isPlaying) {
                 musicPlayer.src = songs[currentSlideIndex];
-                console.log("Requested URL: " + musicPlayer.src);
                 musicPlayer.play();
             } else {
                 musicPlayer.pause();
