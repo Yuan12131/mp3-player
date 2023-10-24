@@ -11,10 +11,37 @@
 }
 
 .player{
-  width: 100vw;
-  height: 100vh;
+  width: 1000px;
+  height: 1200px;
+  display: flex;
   background-image: url("https://d2gfz7wkiigkmv.cloudfront.net/pickin/2/1/2/CHw9H6zgSFWPODG7t3hgFA");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.player>div:nth-child(2){
+  width: 330px;
+  height: 120px;
+  background-color: aqua;
+  position: relative;
+  top:735px;
+  left: 350px;
+  display: flex;
+}
+
+.prev{
+  width: 110px;
+  height: 120px;
+  background-color: bisque;
+}
+.play{
+  width: 110px;
+  height: 120px;
+  background-color: bisque;
+}
+.next{
+  width: 110px;
+  height: 120px;
+  background-color: bisque;
 }
