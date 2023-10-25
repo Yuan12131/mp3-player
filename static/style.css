@@ -8,11 +8,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .player{
-  width: 1000px;
-  height: 1200px;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   background-image: url("https://d2gfz7wkiigkmv.cloudfront.net/pickin/2/1/2/CHw9H6zgSFWPODG7t3hgFA");
   background-position: center;
@@ -24,70 +26,75 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 480px;
-  height: 360px;
+  width: 50vw;
+  height: 50vh;
   overflow: hidden;
   position: relative;
-  top: 190px;
-  left: 275px;
-  border-radius: 20px;
+  top: 15vh;
+  left: 26.5vw;
 }
 
 .slide1{
-  width: 700px;
-  height: 400px;
+  width: 47vw;
+  height: 18vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://m.media-amazon.com/images/M/MV5BODgxZjYyYzUtY2Q3My00YmE3LTg1NjYtNGI2NzM5NmI5ZDM1XkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_.jpg")
+  background-image: url("https://m.media-amazon.com/images/M/MV5BODgxZjYyYzUtY2Q3My00YmE3LTg1NjYtNGI2NzM5NmI5ZDM1XkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_.jpg");
+  border-radius: 5%;
+
 }
 
 .slide2{
-  width: 700px;
-  height: 400px;
+  width: 47vw;
+  height: 18vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://www.usatoday.com/gcdn/presto/2020/12/02/USAT/fb784dfb-3670-45ce-9b54-c68b1dacfcd6-WONDER_-_ARTWORK_-_FINAL_LOCK.jpg?crop=4499,2531,x0,y1575&width=3200&height=1801&format=pjpg&auto=webp")
+  background-image: url("https://www.usatoday.com/gcdn/presto/2020/12/02/USAT/fb784dfb-3670-45ce-9b54-c68b1dacfcd6-WONDER_-_ARTWORK_-_FINAL_LOCK.jpg?crop=4499,2531,x0,y1575&width=3200&height=1801&format=pjpg&auto=webp");
+  border-radius: 5%;
 }
 
 .slide3{
-  width: 700px;
-  height: 400px;
+  width: 47vw;
+  height: 18vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://static.independent.co.uk/2023/08/03/13/230511-PLxPM-Album-Cover-Crop.jpg")
+  background-image: url("https://static.independent.co.uk/2023/08/03/13/230511-PLxPM-Album-Cover-Crop.jpg");
+  border-radius: 5%;
 }
 
 
 .player>div:nth-child(3){
-  width: 330px;
-  height: 230px;
+  width: 47vw;
+  height: 18vh;
   position: relative;
-  top:730px;
-  right: 130px;
   display: flex;
-  border-radius: 50px;
+  border-radius: 20%;
 }
 
 .prev{
-  width: 120px;
-  height: 140px;
+  width: 20vw;
+  height: 7vh;
   cursor: pointer;
   position: relative;
-  right: 140px;
+  right:37vw;
+  top:55vh;
 }
 .play{
-  width: 180px;
-  height: 100px;
+  width: 33vw;
+  height: 5vh;
   cursor: pointer;
   position: relative;
-  top: 120px;
-  left: 90px;
+  left:-8vw;
+  top:62vh;
 }
 .next{
-  width: 120px;
-  height: 140px;
+  width: 20vw;
+  height: 7vh;
   cursor: pointer;
+  position: relative;
+  right:28vw;
+  top:55vh;
 }
