@@ -83,6 +83,7 @@
 
         // 슬라이드를 보여주는 함수
         function showSlide(index) {
+            // forEach 함수로 배열의 각각 요소에 함수를 실행, slide(각 슬라이드 요소), i(현재 슬라이드 인덱스)
             slides.forEach((slide, i) => {
                 if (i === index) {
                     slide.style.display = 'block'; // 현재 슬라이드를 표시
