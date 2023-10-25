@@ -39,7 +39,7 @@
         let currentSlideIndex = 0; // 현재 슬라이드
         let isPlaying = false; // 음악이 재생 중인지 여부
 
-        // 음악 파일 목록 (같은 디렉토리에 있는 mp3 파일 사용)
+        // 음악 파일 목록 (상위 디렉토리에 있는 mp3 파일 사용)
         const songs = [
             "../songOne.mp3",
             "../songTwo.mp3",
@@ -52,6 +52,7 @@
         // 재생 버튼 클릭 시
         playButton.addEventListener("click", function () {
             if (!isPlaying) {
+                // 현재 인덱스의 노래를 재생
                 musicPlayer.src = songs[currentSlideIndex];
                 musicPlayer.play();
             } else {
