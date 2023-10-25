@@ -5,4 +5,5 @@
 -> 앨범아트도 함께 슬라이드
 
 - 로컬 서버를 구축하여 서버 가동상태로 웹서비스 구현
+- + firebase hosting 하기 -> [http://127.0.0.1:5500/static/index.html](https://firbase-mp3.web.app)
 <img width="595" alt="스크린샷 2023-10-24 오후 2 41 08" src="https://github.com/Yuan12131/mp3-player/assets/141980240/5e5a6fe2-2138-476f-9fdf-fe2ac6b059d2">
